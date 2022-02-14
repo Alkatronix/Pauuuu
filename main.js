@@ -65,7 +65,7 @@ navBtnInicio4.addEventListener("click", (e)=>{
     textoGuia.innerHTML = `💝 Para empezar, da click en el <strong class="display-1 text-decoration-underline">PRIMER BOTÓN INICIO!</strong> 💝`
 })
 navBtnExp.addEventListener("click", (e)=>{
-    if(inicios >= 5){
+    if(inicios == 5){
         e.preventDefault()
         inicios++
         textoGuia.classList.remove("display-2")
