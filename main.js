@@ -78,7 +78,7 @@ navBtnExp.addEventListener("click", (e)=>{
     }
     e.preventDefault()
     textoGuia.classList.add("display-2")
-    textoGuia.innerHTML = `Para empezar, da click en el <strong class="display-1 text-decoration-underline">PRIMER BOTÓN INICIO!</strong>`
+    textoGuia.innerHTML = `Para empezar, da click en el <strong class="display-1 text-decoration-underline">BOTON RECUERDOS!</strong>`
 })
 navBtnRec.addEventListener("click", (e)=>{
     if(inicios == 7){
