@@ -87,7 +87,7 @@ navBtnRec.addEventListener("click", (e)=>{
         if(!fotosRandom){fotosRandom = document.createElement("div"); textoGuia.parentElement.insertBefore(fotosRandom, textoGuia)}
         fotosRandom.innerHTML = `
         <div class="d-block justify-content-center ">
-            TE EXTRAÑARÉ MALDITAAAAAAAAAAAA
+            <h2 class="d-flex justify-content-center text-center pt-4">TE EXTRAÑARÉ MALDITAAAAAAAAAAAA</h2>
             <div>
                 <img src="./img/00.jpeg" class="d-flex justify-content-center p-2 style="width=95%"">
             </div>
@@ -103,7 +103,7 @@ navBtnRec.addEventListener("click", (e)=>{
         fotosRandom = document.createElement("div")
         fotosRandom.innerHTML = `
             <div class="d-flex justify-content-center ">
-                ¿Ya te dije que te quiero, Pau?
+                <h2 class="d-flex justify-content-center text-center pt-4">¿Ya te dije que te quiero, Pau?</h2>
             </div>
         `
         textoGuia.parentElement.insertBefore(fotosRandom, textoGuia)
